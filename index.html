@@ -3,114 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje Portfolio</title>
+    <title>Michał Taraszka | Creative Developer 2026</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="custom-cursor"></div>
 
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Michał<span>Taraszka</span></a>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">MT<span>.</span></div>
             <ul class="nav-links">
-                <li><a href="#about">O mnie</a></li>
-                <li><a href="#skills">Skille</a></li>
-                <li><a href="#projects">Projekty</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#about" class="hover-link">O mnie</a></li>
+                <li><a href="#projects" class="hover-link">Realizacje</a></li>
+                <li><a href="#contact" class="hover-link">Kontakt</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Cześć, jestem <span>Frontend Developerem</span>.</h1>
-            <p>Buduję nowoczesne, szybkie i estetyczne strony internetowe z dbałością o detale.</p>
-            <a href="#projects" class="btn">Zobacz moje prace</a>
-        </div>
-    </header>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>O mnie</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="about-content">
-                <p>Jestem pasjonatem technologii webowych, który wierzy, że mniej znaczy więcej. Moje podejście do projektowania opiera się na minimalizmie i użyteczności. Każdy projekt traktuję jako wyzwanie, by połączyć czysty kod z doskonałym designem.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Moje umiejętności</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-card">HTML5 & CSS3</div>
-                <div class="skill-card">JavaScript (ES6+)</div>
-                <div class="skill-card">Git & GitHub</div>
-                <div class="skill-card">Responsive Design</div>
-                <div class="skill-card">UI/UX Basics</div>
-                <div class="skill-card">React.js</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Wybrane projekty</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-info">
-                        <h3>E-commerce Minimal</h3>
-                        <p>Sklep internetowy skupiony na czystym interfejsie i szybkości działania.</p>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-info">
-                        <h3>Aplikacja Pogodowa</h3>
-                        <p>Minimalistyczny interfejs do sprawdzania pogody z wykorzystaniem API.</p>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <div class="project-info">
-                        <h3>Dashboard Analityczny</h3>
-                        <p>Przejrzysty panel do zarządzania danymi użytkownika.</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Porozmawiajmy</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-content">
-                <p>Masz projekt w głowie? Chętnie o nim usłyszę!</p>
-                <a href="mailto:kontakt@twojdomena.pl" class="contact-link">kontakt@twojdomena.pl</a>
-                <div class="socials">
-                    <a href="#">GitHub</a>
-                    <a href="#">LinkedIn</a>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="badge">Dostępny na nowe wyzwania w 2026</div>
+                <h1 class="reveal">Michał <span>Taraszka</span></h1>
+                <p class="reveal delay-1">Digital Architect & Creative Developer specjalizujący się w budowaniu bezkompromisowych doświadczeń cyfrowych.</p>
+                <div class="hero-btns reveal delay-2">
+                    <a href="#projects" class="btn primary">Eksploruj projekty</a>
+                    <a href="#contact" class="btn secondary">Porozmawiajmy</a>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="blob"></div>
+        </section>
 
-    <footer class="footer">
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="reveal">Wybrane realizacje</h2>
+                <div class="bento-grid">
+                    <div class="bento-item large reveal">
+                        <div class="bento-content">
+                            <h3>NextGen Platform</h3>
+                            <p>Zaawansowana platforma SaaS oparta o AI.</p>
+                        </div>
+                    </div>
+                    <div class="bento-item reveal">
+                        <div class="bento-content">
+                            <h3>E-mobility App</h3>
+                            <p>Interfejs przyszłości.</p>
+                        </div>
+                    </div>
+                    <div class="bento-item reveal">
+                        <div class="bento-content">
+                            <h3>Cyber Security</h3>
+                            <p>Brand identity & web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
         <div class="container">
-            <p>&copy; 2024 Portfolio. Stworzone z pasją.</p>
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> Michał Taraszka. Crafted with precision.</p>
+            </div>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
